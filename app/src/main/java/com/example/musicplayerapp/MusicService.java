@@ -27,8 +27,8 @@ public class MusicService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        mediaPlayer = MediaPlayer.create(this, R.raw.musicplayer); // Replace with your music file
-        mediaPlayer.setLooping(true); // Enable looping
+        mediaPlayer = MediaPlayer.create(this, R.raw.musicplayer);
+        mediaPlayer.setLooping(true);
     }
 
     public void play() {
